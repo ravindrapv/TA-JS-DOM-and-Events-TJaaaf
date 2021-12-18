@@ -35,4 +35,24 @@ img {
 }
 .heading{
   text-align: center;
+  margin: 1.5rem;
+}
+header {
+  background-color: #F2F4F8;
+}
+.box{
+  width: 4rem;
+  height: 4rem;
+  border: 1px solid black;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
 }
