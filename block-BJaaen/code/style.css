@@ -79,7 +79,7 @@ ul{
 i {
     font-size: 56px;
     font-weight: 900;
-    margin: 44px;
+    margin: 50px;
     color: blue;
 }
 
@@ -88,4 +88,21 @@ i {
     font-weight: 900;
     color: rgb(59, 224, 26);
 }
+.selected{
+   border-radius: 50%;
+   background-color: green;
+}
+button{
+    padding: 1rem;
+    width: 5rem;
+    background-color: grey;
+    margin: 1rem;
+}
+.clr{
+    color: hotpink;
+}
 
+
+span{
+   padding: 1rem;
+}
