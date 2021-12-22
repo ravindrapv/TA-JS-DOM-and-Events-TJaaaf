@@ -40,7 +40,7 @@ function createUserLayout(){
     dataSet.forEach((icon) => {
         let li = document.createElement("li");
         let i = document.createElement("i");
-        i.className = `far fa-hand-${icon.name}`;
+        i.className = `far fa-hand-${icon.name} clr`;
 
         if(userSelected.name === icon.name){
             li.classList.add("selected");
@@ -84,10 +84,12 @@ function createComputerLayout(){
 createComputerLayout();
 
 reset.addEventListener("click", () =>{
-    rerender()
+    rerender();
+    userSelected = {};
+    computerSelected = {};
 })
 
 function rerender(){
-    userSelected = {};
-    computerSelected = {};
+   createUserLayout();
+   createComputerLayout();
 }
