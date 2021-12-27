@@ -61,7 +61,7 @@ body{
 }
 
 .container{
-    max-width: 50%;
+    width: 50%;
     margin: 0 auto;
     align-items: center;
     background-color: purple;
@@ -75,9 +75,8 @@ body{
 span{
     color: red;
 }
-.inputtype{
-    max-width:100%;
+.input1{
+    width:100%;
     padding: 1rem;
-    border: none;
 }
 
