@@ -1,0 +1,9 @@
+{
+    "name": "todo",
+    "description": "you can add your todos every day",
+    "version":"1.0.0",
+    "manifest_version": 2,
+    "crome_url overrides":{
+        "newtab":"index.html"
+    }
+}
